@@ -1,0 +1,17 @@
+# setup a new screen
+screen -S xilinx
+
+# Ctrl-AD to disconnect from screen
+
+# show available screens
+screen -list
+
+# connect to running screen
+screen -r 5149.xilinx
+
+# steal an attached screen
+screen -d -r 5149.xilinx
+
+# termiate screen session
+exit
+       
